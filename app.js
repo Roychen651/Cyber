@@ -48,7 +48,7 @@ const db = new Client({
     host: "localhost",
     database: "postgres",
     password: "123456",
-    port: 5432,
+    port: 5433,
 });
 
 db.connect((err) => {
